@@ -9,19 +9,18 @@
 </head>
 <body>
     <main>
-        <section id="greeting">
             <h1>Hey you!</h1>
             <h3>This is my first project JS based!</h3>
-        </section>
         <section id="button">
-            <p>You may use the "-" and "+" buttons to subtract or add quantities to the counter!</p>
-            <button id="plus">+</button>
-            <button id="minus">-</button>
-            <p></p>
+            <p>You may use the buttons below to add or subtract quantities to the counter!</p>
+            <button name="plus" onclick="increase()">+</button>
+            <span id="currentValue">0</span>
+            <button name="minus" onclick="decrease()">-</button>
         </section>
     </main>
     <footer>
         <p>Made by <a href="https://www.linkedin.com/in/joao-giordani/">João Giordani</a></p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
