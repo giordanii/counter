@@ -1,7 +1,7 @@
-# counter
+# JS Counter
 Creating a counter to add and subtract quantities with Vanilla JavaScript
 
-Technologies Used 💻<br>
-<p>HTML</p><br>
-<p>CSS</p><br>
+Technologies Used 💻
+<p>HTML</p>
+<p>CSS</p>
 <p>Vanilla JS</p>
