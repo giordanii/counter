@@ -25,14 +25,23 @@ main p {
 }
 
 button {
-    width: 50px;
     height: 50px;
+    width: 50px;
     border-radius: 50%;
+    border: 2px solid white;
+    color: rgb(56, 176, 157);
+    font-size: 20px;
     cursor: pointer;
 }
 
 span {
     padding: 20px;
+    font-size: 20px;
+}
+
+span.color {
+    color: red;
+    font-weight: bold;
 }
 
 footer {
